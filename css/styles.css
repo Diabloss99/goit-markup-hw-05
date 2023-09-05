@@ -77,6 +77,8 @@ body
 }
 .products > li:hover {
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .navy
 {
@@ -101,6 +103,8 @@ body
 .navbar:focus
 {
     color: var(--click-and-focus);
+    transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address
 {
@@ -118,6 +122,8 @@ body
 .adress-link:focus
 {
     color: var(--click-and-focus);
+    transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .underline{
     position: relative;
@@ -133,6 +139,8 @@ body
     height: 4px;
     background-color: var(--click-and-focus);
     border-radius: 2px;
+        transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /*Main*/
 .section
@@ -178,6 +186,8 @@ background-color: #4d5ae5;
 .first-button:focus
 {
     background-color: #404bbf;
+    transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .advantages{
     padding: 120px 0;
@@ -273,6 +283,8 @@ gap: 24px;
 .team-svg:hover,
 .team-svg:focus {
     background-color: var(--click-and-focus);
+        transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .list-item
 {
@@ -289,6 +301,8 @@ gap: 24px;
 .adress-link2:focus
 {
     color: var(--click-and-focus);
+        transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-buttons
@@ -308,6 +322,8 @@ gap: 24px;
 {
     color: #ffffff;
     background-color: #404bbf;
+        transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .buttons{
     justify-content: center;
@@ -332,6 +348,8 @@ gap: 24px;
 .svg-customers:hover,
 .svg-customers:focus {
     fill: var(--click-and-focus);
+        transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .third-main{
         font-size: 36px;
@@ -384,6 +402,7 @@ font-family: Roboto;
  font-style: normal;
  font-weight: 400;
  line-height: 24px;}
+ 
 /*Footer*/
 .footer-background
 {
@@ -430,6 +449,7 @@ font-family: Roboto;
             cursor: pointer;
             background-color: #31d0aa;
             transition: var(--transition);
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     
         }
 .social-media-footer {
