@@ -360,14 +360,14 @@ gap: 24px;
                 .svg-customers {
                     fill: #8e8f99;}
 .overlay {
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-transform: translateY(100%);
-transition: transform 250ms ease-in-out;
-background-color: var(--brand-color);
+    position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transform: translateY(100%);
+        transition: transform 250ms ease-in-out;
+        background-color: var(--brand-color);
 }
 
 .product:hover .overlay {
@@ -377,7 +377,7 @@ transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.overlay p {
+.overlay > p {
 color: #F4F4FD;
 font-family: Roboto;
  font-size: 16px;
